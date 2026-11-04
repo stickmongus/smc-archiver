@@ -1,0 +1,15 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+*.pdb
+
+# Local release binary (distributed via GitHub Releases)
+/smc.exe
+
+# Local test archives & scratch files
+/*.smc
+/*.s[0-9][0-9]*
+/*.zip
+/*.7z
+/*.7z.[0-9]*
+/screen.jpg
